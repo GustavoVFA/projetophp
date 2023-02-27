@@ -4,3 +4,10 @@
 
 
 ?>
+
+<?
+
+echo "Olá mundo <br> Helloword";
+
+?>
+
