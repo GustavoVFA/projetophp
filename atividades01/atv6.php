@@ -8,8 +8,10 @@
         switch($esc){
             case 1:
                 $hom++;
+                break;
             case 2:
                 $mul++;
+                break;
         };
 
     };
