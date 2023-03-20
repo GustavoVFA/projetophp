@@ -14,7 +14,6 @@
 
     };
 
-    echo "Homens: $hom <br/>
-    Mulheres: $mul "
+    echo "Total: <br/> Homens: $hom <br/>Mulheres: $mul "
 
 ?>
