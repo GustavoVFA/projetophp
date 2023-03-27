@@ -5,6 +5,4 @@
     foreach ($nomes as $iten){
         echo "<br/>".$iten;
     };
-
-
 ?>
