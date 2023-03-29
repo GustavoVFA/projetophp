@@ -1,10 +1,8 @@
 <?php
-//Funcão em PHP
-function somavalor(){
-    $num1 = 20;
-    $num2 = 30;
-    $resp = $num1 + $num2;
-    echo "a soma é: $resp";
-};
 
-somavalor();
+function dobro($n){
+    return ($n*2);
+}
+
+$x = 6;
+echo "<br/> o dobro de ".$x." = ".dobro($x);
