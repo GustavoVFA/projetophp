@@ -15,14 +15,14 @@ function entrada($x1, $x2){
 function soma($a, $b){
     return $a + $b;
 }
-function sub ($x1,$x2){
-    return $x1 - $x2;
+function sub ($a, $b){
+    return $a - $b;
 }
-function mult ($x1,$x2){
-    return $x1 * $x2;
+function mult ($a, $b){
+    return $a * $b;
 }
-function div ($x1,$x2){
-    return $x1 / $x2; 
+function div ($a, $b){
+    return $a / $b; 
 }
 $a = 30;
 $b = 20;
