@@ -1,19 +1,20 @@
 <?php
-    
-function entrada(){
+    $x2 = 10;
+    $x1 =20;
+function entrada($x1, $x2){
     echo "Digite um número: ";
     echo "<br/> Digite a operação desejada <br/>[1] + <br/>
     [2] - <br/>
     [3] * <br/>
     [4] / :  ";
     echo "<br/> Digite o próximo número: <br/>";
-    $x2 = 10;
-    $x1 =20;
+    $a = $x1;
+    $b = $x2;
     return;
 }
 
-function soma ($x1, $x2){
-    return $x1 + $x2;
+function soma($a, $b){
+    return $a + $b;
 }
 function sub ($x1,$x2){
     return $x1 - $x2;
@@ -28,10 +29,10 @@ function div ($x1,$x2){
     
 }
 
-$a = 10;
+$a = 30;
 $b = 20;
 
-entrada();
+entrada($x1, $x2);
 $op = "+";
 
 function imprimir($op, $a, $b){
