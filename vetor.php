@@ -1,4 +1,4 @@
-<?php 
+<?php
 
 $nome1 = "maria";
 $nome2 = "joao";
@@ -22,4 +22,25 @@ foreach($nome as $nomes) {
     echo "<br/>".$nomes;
 }
 
+?>
+
+<p>$num</p>
+
+<?php
+
+$Num = array(1,2,3,4,5);
+
+foreach($Num as $valor){
+    echo "Valor é $valor <br/>";
+}
+echo "<br/> <br/>";
+$Num[0] = "Um";
+$Num[1] = "Dois";
+$Num[2] = "Três";
+$Num[3] = "Quatro";
+$Num[4] = "Cinco";
+
+foreach($Num as $valor){
+    echo "Valor é $valor <br/>";
+}
 ?>
