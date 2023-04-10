@@ -12,29 +12,22 @@ function entrada($x1, $x2){
     $b = $x2;
     return;
 }
-
 function soma($a, $b){
     return $a + $b;
 }
 function sub ($x1,$x2){
     return $x1 - $x2;
-    
 }
 function mult ($x1,$x2){
     return $x1 * $x2;
-    
 }
 function div ($x1,$x2){
-    return $x1 / $x2;
-    
+    return $x1 / $x2; 
 }
-
 $a = 30;
 $b = 20;
-
 entrada($x1, $x2);
 $op = "+";
-
 function imprimir($op, $a, $b){
     switch($op){
        case '+':
@@ -55,5 +48,4 @@ function imprimir($op, $a, $b){
     }
 }
 imprimir($op, $a, $b);
-
 ?>
