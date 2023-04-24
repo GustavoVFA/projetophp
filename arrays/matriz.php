@@ -8,6 +8,8 @@ $emp = array(
 
 echo "<pre>";
 print_r($emp);
+//mostra o tipo posisaão e tamanho do array
+var_dump($emp);
 echo "<pre>";
 
 for($i=0;$i<3;$i++){
