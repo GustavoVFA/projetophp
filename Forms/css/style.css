@@ -1,0 +1,25 @@
+body {
+    padding: 2%;
+}
+
+div {
+    margin-bottom: 10px;
+}
+
+h1 {
+    text-align: center;
+    padding-bottom: 2%;
+}
+
+input {
+    min-height: 50px;
+}
+
+label {
+    font-weight: 500;
+}
+
+button {
+    width: 250px;
+}
+

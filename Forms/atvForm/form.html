@@ -4,29 +4,27 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../estilo.css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/style.css">
+     <link rel="stylesheet" href="../css/bootstrap.min.css"> 
     <title>Formulario Metodo GET</title>
 </head>
-<body>
-
-    
-
-    
-    <form action="form.php" method="post">
-        <div class="form-group row">
-            <label for="inputEmail3" class="col-sm-2 col-form-label">Raio:</label>
-            <div class="col-sm-10">
-              <input type="email" class="form-control" id="inputEmail3" placeholder="Raio" name="raio">
-            </div>
-          </div>
+  <body>
+    <h1>Calculo de Raio</h1>
+      <form action="form.php" method="post">
           <div class="form-group row">
-            <label for="inputPassword3" class="col-sm-2 col-form-label">Altura:</label>
-            <div class="col-sm-10">
-              <input type="password" class="form-control" id="inputPassword3" placeholder="Altura" name="altura">
-            </div>
-            <div class="col-sm-10">
-                <button type="submit" class="btn btn-primary">Entrar</button>
+              <label for="inputEmail3" class="col-sm-2 col-form-label">Raio:</label>
+              <div class="col-sm-10">
+                <input type="number" class="form-control" id="inputEmail3" placeholder="Raio" name="raio">
               </div>
-    </form>
-</body>
+            </div>
+            <div class="form-group row">
+              <label for="inputPassword3" class="col-sm-2 col-form-label">Altura:</label>
+              <div class="col-sm-10">
+                <input type="number" class="form-control" id="inputPassword3" placeholder="Altura" name="altura">
+              </div>
+              <div class="col-sm-10" id="button">
+                  <button type="submit" class="btn btn-primary btn-lg">Calcular</button>
+                </div>
+      </form>
+  </body>
 </html>
