@@ -4,16 +4,23 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sessão de Usuario </title>
+    <title>Document</title>
 </head>
 <body>
-    <?php
+<?php
     
     session_start();
+    $_SESSION['nome'] = 'Supremo senhor sem massa';
+
+    //Elimimna todas as sessões mas, mantém a sessão ativa
+    session_unset();
+
+    //Elimina toda sessão
+    //session_destroy();
+
 
     ?>
     <h3>Sessao de Usuario</h3>
-   SSID desta sessão é: <?php  echo session_id(); ?>
-
+    Bem Vindo, Caro <?php  echo $_SESSION['nome']; ?>
 </body>
 </html>
