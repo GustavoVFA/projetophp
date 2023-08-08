@@ -17,7 +17,7 @@ if(mysqli_connect_errno()){
 
 
 
- // Fechando Conexão
+// Fechando Conexão
 
 //select codigo +1 from (nome tabela) order by codigo desc
 
