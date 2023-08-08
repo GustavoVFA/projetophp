@@ -12,7 +12,7 @@ if(mysqli_connect_errno()){
 
 
     if(mysqli_query($con, $sql)){
-        echo "Pessoa inserida com sucesso!!!";
+        header("Location: inserirDados.php");
 
     }else{
         

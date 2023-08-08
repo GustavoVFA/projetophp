@@ -18,6 +18,12 @@
 
         <input type="submit" value="Enviar">
     </form>
+
+
+    <?php
+
+    include_once("select_tablea.php");
+    ?>
 </body>
 
 </html>
