@@ -15,7 +15,7 @@ if (mysqli_connect_errno()) {
 
     while ($pessoa = mysqli_fetch_array($resultado)) {
 
-        echo "Nome: " . $pessoa['Nome'] . " || " . "Sobrenome: " . $pessoa['Sobrenome'] . " || " . "Idade: " . $pessoa['Idade'] . "<br><br>";
+        echo "Nome: " . $pessoa['Nome'] . " " . $pessoa['Sobrenome'] . " - " . $pessoa['Idade']. " Anos". "<br><br>";
     }
     mysqli_close($con);
 }

@@ -1,0 +1,4 @@
+Drop DATABASE if EXISTS db_2HPW2;
+Create DATABASE if not EXISTS db_2HPW2 ;
+Use db_2HPW2;
+
