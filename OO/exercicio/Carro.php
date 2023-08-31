@@ -9,12 +9,12 @@ Class Carro{
     
     
     function InformaCor(){
-        echo "Cor". $this->cor. "</br>";
+        echo "Cor: ". $this->cor. "</br>";
     }
 
 
     function Acelerar(){
-        $this->vrum++;
+        $this->vrum ++;
     }
     
     function mostrar(){
