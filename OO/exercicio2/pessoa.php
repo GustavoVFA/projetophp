@@ -16,14 +16,14 @@ class Pessoa{
             $this->altura += $centimetro;
         }
     }
-
+    // altera a escolaridade para titulação
     function formar($titulacao){
         $this->escolaridade = $titulacao;
     }
-    
+    // aumenta a idade em anos
     function envelhecer($anos){
         if($anos = 0){
-            $this->idade = $anos;
+            $this->idade += $anos;
         }
     }
 
