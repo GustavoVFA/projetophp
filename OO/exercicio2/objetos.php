@@ -1,5 +1,8 @@
 <?php
 
+include_once 'pessoa.php';
+include_once 'conta.php';
+
 # Criação do objeto $conta_carlos
 
 
