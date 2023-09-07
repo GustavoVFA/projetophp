@@ -28,7 +28,7 @@ class Pessoa
     function __destruct()
     {
 
-        echo "<br>Objeto {$this->nome} finalizado... </br>";
+        echo "<br> Objeto {$this->nome} finalizado... </br>";
     }
 
     // aumenta a altura em centimetros
