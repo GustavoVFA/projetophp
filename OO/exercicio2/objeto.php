@@ -8,7 +8,8 @@ include_once 'conta.php';
 # Criação do objeto $carlos
 
 $carlos = new Pessoa;
-$carlos->codigo =10;
+
+$carlos->codigo = 10;
 $carlos->nome = "Carlos da Silva";
 $carlos->altura = 1.85;
 $carlos->idade = 25;

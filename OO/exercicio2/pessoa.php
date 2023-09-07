@@ -1,7 +1,8 @@
 <?php
 
 
-class Pessoa{
+class Pessoa
+{
 
     var $codigo;
     var $nome;
@@ -13,7 +14,8 @@ class Pessoa{
 
 
     // metodo construtor
-    function __construct($codigo, $nome, $altura, $idade, $nascimento, $escolaridade, $salario){
+    function __construct($codigo, $nome, $altura, $idade, $nascimento, $escolaridade, $salario)
+    {
         $this->codigo = $codigo;
         $this->nome = $nome;
         $this->altura = $altura;
@@ -21,30 +23,31 @@ class Pessoa{
         $this->nascimento = $nascimento;
         $this->escolaridade = $escolaridade;
         $this->salario = $salario;
-
     }
 
-    function __destruct(){
-        
-        echo "<br>Objeto {$this->none} finalizado... </br>"
+    function __destruct()
+    {
+
+        echo "<br>Objeto {$this->nome} finalizado... </br>";
     }
 
     // aumenta a altura em centimetros
-    function crescer($centimetro){
-        if($centimetro > 0){
+    function crescer($centimetro)
+    {
+        if ($centimetro > 0) {
             $this->altura += $centimetro;
         }
     }
     // altera a escolaridade para titulação
-    function formar($titulacao){
+    function formar($titulacao)
+    {
         $this->escolaridade = $titulacao;
     }
     // aumenta a idade em anos
-    function envelhecer($anos){
-        if($anos = 0){
+    function envelhecer($anos)
+    {
+        if ($anos = 0) {
             $this->idade += $anos;
         }
     }
-
-
 }
