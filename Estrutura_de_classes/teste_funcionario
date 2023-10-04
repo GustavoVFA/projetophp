@@ -1,0 +1,29 @@
+<?php 
+
+#carrega a classe
+
+include_once 'Funcionario.php';
+
+$codigo = $_POST['codigo'];
+$nome = $_POST['nome'];
+$data_nascimento = $_POST['nascimento'];
+$salario = $_POST['salario'];
+
+
+
+
+$user = new Funcionario();
+
+$user->setCodigo($codigo);
+$user->setNome($nome);
+$user->setNascimento($data_nascimento);
+$user->setSalario($salario);
+
+
+echo 'Código:' . $user->getCodigo() . "<br>";
+echo 'Nome:' . $user->getNome() . "<br>";
+echo 'Data De Nascimento:' . $user->getNascimento() . "<br>";
+echo 'Salário: R$' . $user->getSalario() . "<br>";
+
+
+?>
