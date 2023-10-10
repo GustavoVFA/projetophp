@@ -3,7 +3,7 @@
 
 class Funcionario{
     private $codigo;
-    private $nome;
+    public $nome;
     private $nascimento;
     protected $salario;
 
