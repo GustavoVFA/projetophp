@@ -16,7 +16,7 @@
     <div class="container mt-3">
         <div class="row justify-content-center">
             <div class="col-md-6">
-                <h2 class="text-center">Criar Funcionário</h2>
+                <h2 class="text-center">Calculadora de Gorjeta</h2>
                 <form method="POST" action="teste_funcionario.php">
                     <div class="form-group">
                         <label for="codigo">Codigo:</label>
@@ -32,19 +32,17 @@
                             <option>Ruim 2%</option>
                         </select>
                     </div>
-
-                    <div class="form-group">
-                        <label for="nascimento">Data De Nascimento:</label>
-                        <input type="date" class="form-control" name="nascimento" autocomplete="off" name="rating">
-                    </div>
-
-                    <div class="form-group">
-                        <label for="mensagem">Salário:</label>
-                        <input class="form-control" type="number" autocomplete="off" name="salario">
-                    </div>
-
                     <button type="submit" class="btn btn-primary">Enviar</button>
                 </form>
+                <br>
+                <div class="form-group">
+                    <label for="Valor da Gorjeta">Valor da Gorjeta</label>
+                    <input type="number" autocomplete="off" class="form-control" name="codigo" disabled="">
+                </div>
+                <div class="form-group">
+                    <label for="Valor total">Valor Total</label>
+                    <input type="number" autocomplete="off" class="form-control" name="codigo" disabled="">
+                </div>
             </div>
         </div>
     </div>
