@@ -17,14 +17,15 @@
         <div class="row justify-content-center">
             <div class="col-md-6">
                 <h2 class="text-center">Calculadora de Gorjeta</h2>
+                <br>
+                <br>
                 <form method="POST" action="teste_funcionario.php">
                     <div class="form-group">
-                        <label for="codigo">Codigo:</label>
+                        <label for="codigo">Valor da Gorjeta</label>
                         <input type="number" autocomplete="off" class="form-control" name="codigo">
                     </div>
-
                     <div class="form-group">
-                        <label for="exampleFormControlSelect1">Example select</label>
+                        <label for="exampleFormControlSelect1">Qualidade do Serviço</label>
                         <select class="form-control" id="exampleFormControlSelect1">
                             <option>Excelente 10%</option>
                             <option>Ótimo 8%</option>
